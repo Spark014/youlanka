@@ -115,22 +115,15 @@ a {
     color: var(--white);
 }
 
-.brand-cn {
-    font-family: var(--font-cn);
-    font-weight: 700;
-    font-size: 1.2rem;
-    color: var(--gold-light);
+.nav-logo-img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
 }
 
-.brand-divider {
-    color: var(--gold);
-    opacity: 0.6;
-}
-
-.brand-en {
-    letter-spacing: 0.15em;
-    font-size: 0.85rem;
-    color: var(--white);
+.nav-logo-img:hover {
+    transform: scale(1.05);
 }
 
 .nav-links {

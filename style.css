@@ -1264,16 +1264,20 @@ section:nth-child(even) {
 }
 
 .contact-logo {
-    width: 140px;
-    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    max-width: 240px;
     margin-bottom: 20px;
     border-radius: 8px;
-    overflow: hidden;
     background: var(--white);
-    padding: 8px;
+    padding: 10px 16px;
 }
 
 .contact-logo img {
+    height: 100%;
+    width: auto;
     object-fit: contain;
 }
 
@@ -1318,6 +1322,7 @@ section:nth-child(even) {
     font-size: 0.95rem;
     line-height: 1.5;
     transition: color 0.2s;
+    word-break: break-word;
 }
 
 a.contact-value:hover {
